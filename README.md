@@ -6,7 +6,12 @@
     * avec mains (indisponible)
 * environnement départ coin (indisponible)
 
-### Sources
+### Remerciements
+
+[__Omni Calulator__](https://www.omnicalculator.com) pour les calculs [*Midpoint*](https://www.omnicalculator.com/math/midpoint), [*Distance*](https://www.omnicalculator.com/math/distance) et [*Angle between two vectors*](https://www.omnicalculator.com/math/angle-between-two-vectors)
+
+
+### Ressources
 
 [*Tall Trees* by Mark Sheppard](https://www.flickr.com/photos/112807070@N03/31571656074/)  
 [*Woods-Trpd* by Greg Nuspel](https://www.flickr.com/photos/gregnuspel/3624297151/)
