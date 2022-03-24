@@ -47,16 +47,22 @@
         <!-- second row -->
 
         <a-sphere
-            position="-0.25 -0.02 1"
-            radius="0.05" rotation="90 0 0"
+            position="-0.25 -0.05 1"
+            radius="0.04" rotation="90 0 0"
             src="#rope-sph">
         </a-sphere>
 
         <a-cylinder
-            position="-0.5 0 0.5"
-            height="10" radius="0.05"
+            position="-0.5 -2 0.5"
+            height="8" radius="0.05"
             material="src:#bark" repeat="1 50">
         </a-cylinder>
+
+        <a-torus
+            position="-0.5 -0.05 0.5" rotation="90 0 0"
+            radius-tubular="0.01" radius="0.05"
+            material="src:#rope-cyl" repeat="5 1">
+        </a-torus>
 
         <a-box
             position="0 -0.05 0"
@@ -81,7 +87,7 @@
 
         <a-sphere
             position="1.5 -0.05 0.25"
-            radius="0.05" rotation="90 0 0"
+            radius="0.04" rotation="90 0 0"
             src="#rope-sph">
         </a-sphere>
 
@@ -106,14 +112,42 @@
             material="src:#rope-cyl" repeat="1 10">
         </a-cylinder>
 
-        
+        <a-cylinder
+            position="-1.375 -0.05 -0.875" rotation="-90 0 19.654"
+            height="1.274755" radius="0.015"
+            material="src:#rope-cyl" repeat="1 10">
+        </a-cylinder>
+
+        <a-cylinder
+            position="-1.25 -0.05 0.5" rotation="-90 0 0"
+            height="1.5" radius="0.015"
+            material="src:#rope-cyl" repeat="1 10">
+        </a-cylinder>
+
+        <a-cylinder
+            position="-0.75 -0.05 1.125" rotation="90 0 75.96"
+            height="1.030776" radius="0.015"
+            material="src:#rope-cyl" repeat="1 10">
+        </a-cylinder>
+
+        <a-cylinder
+            position="-0.375 -0.05 0.75" rotation="90 0 153.43"
+            height="0.559017" radius="0.015"
+            material="src:#rope-cyl" repeat="1 10">
+        </a-cylinder>
+
+        <a-cylinder
+            position="0.25 -0.05 1.25" rotation="90 0 116.8"
+            height="1.118034" radius="0.015"
+            material="src:#rope-cyl" repeat="1 10">
+        </a-cylinder>
 
         
         <!-- outside -->
 
         <a-cylinder
-            position="2.5 0 0.25"
-            height="10" radius="0.05"
+            position="2.5 -2 0.25"
+            height="8" radius="0.05"
             material="src:#bark" repeat="1 50">
         </a-cylinder>
 
