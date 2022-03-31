@@ -10,12 +10,12 @@
 
 <body>
     <a-scene background="color: #80d9ca"
-        fog="type: exponential; density: 0.25; color: #12130c">
+        fog="type: exponential; density: 0.25; color: #070707">
 
         <a-assets>
             <a-asset-item id="leftfoot" src="./assets/models/piedgauche.glb"></a-asset-item>
             <a-asset-item id="rightfoot" src="./assets/models/pieddroite.glb"></a-asset-item>
-            <img id="skybox" src="./assets/images/skybox3.jpg">
+            <img id="skybox" src="./assets/images/skybox3e.jpg">
             <img id="wood" src="./assets/images/wood2.jpg">
             <img id="bark" src="./assets/images/bark.jpg">
             <img id="rope-cyl" src="./assets/images/rope2.png">
@@ -26,17 +26,8 @@
             material="fog: false">
         </a-sky>
 
-        <!-- <a-entity light="type: ambient; color: #b6cbb1"></a-entity> -->
         <a-entity light="type: hemisphere; color: #b6cbb1; groundColor: #b6cbb1; intensity: 1"></a-entity>
         <a-entity light="type: directional; color: #e9f578; intensity: 0.4" position="-0.5 1 1"></a-entity>
-        
-
-        <!-- <a-plane
-            position= "0 -0.2 0"
-            rotation= "-90 0 0"
-            width= "3.5" height= "3.5"
-            color= "white">
-        </a-plane> -->
 
 
         <!-- first row -->
@@ -45,18 +36,27 @@
             position="-1.25 -0.05 1.25"
             height="0.1" depth="0.4" width="0.4"
             src="#wood">
+            <a-cylinder position="0 -7 0" height="14" radius="0.08"
+                material="src:#bark" repeat="1 50">
+            </a-cylinder>
         </a-box>
 
         <a-box 
             position="-1.25 -0.05 -0.25"
             height="0.1" depth="0.4" width="0.4"
             src="#wood">
+            <a-cylinder position="0 -7 0" height="14" radius="0.08"
+                material="src:#bark" repeat="1 50">
+            </a-cylinder>
         </a-box>
 
         <a-box
             position="-1.4 -0.05 -1.35"
             height="0.1" depth="0.4" width="0.4"
             src="#wood">
+            <a-cylinder position="0 -7 0" height="14" radius="0.08"
+                material="src:#bark" repeat="1 50">
+            </a-cylinder>
         </a-box>
 
 
@@ -64,7 +64,7 @@
 
         <a-torus-knot
             position="-0.25 -0.05 1" rotation="30 90 0"
-            radius-tubular="0.015" radius="0.03" p="1" q="3"
+            radius-tubular="0.012" radius="0.03" p="1" q="3"
             material="src:#rope-cyl" repeat="6 1">
         </a-torus-knot>
 
@@ -77,13 +77,13 @@
 
         <a-torus
             position="-0.5 -0.05 0.5" rotation="90 0 0"
-            radius-tubular="0.015" radius="0.06"
+            radius-tubular="0.012" radius="0.06"
             material="src:#rope-cyl" repeat="5 1">
         </a-torus>
 
         <a-torus-knot
             position="-0.46 -0.05 0.58" rotation="40 180 0"
-            radius-tubular="0.015" radius="0.03" p="1" q="3"
+            radius-tubular="0.012" radius="0.03" p="1" q="3"
             material="src:#rope-cyl" repeat="6 1">
         </a-torus-knot>
 
@@ -92,12 +92,18 @@
             position="0 -0.05 0"
             height="0.1" depth="0.4" width="0.4"
             src="#wood">
+            <a-cylinder position="0 -7 0" height="14" radius="0.08"
+                material="src:#bark" repeat="1 50">
+            </a-cylinder>
         </a-box>
 
         <a-box
             position="-0.25 -0.05 -1"
             height="0.1" depth="0.4" width="0.4"
             src="#wood">
+            <a-cylinder position="0 -7 0" height="14" radius="0.08"
+                material="src:#bark" repeat="1 50">
+            </a-cylinder>
         </a-box>
 
 
@@ -107,11 +113,14 @@
             position="0.75 -0.05 1.35"
             height="0.1" depth="0.4" width="0.4"
             src="#wood">
+            <a-cylinder position="0 -7 0" height="14" radius="0.08"
+                material="src:#bark" repeat="1 50">
+            </a-cylinder>
         </a-box>
 
         <a-torus-knot
             position="1.5 -0.05 0.25" rotation="30 90 0"
-            radius-tubular="0.015" radius="0.03" p="1" q="3"
+            radius-tubular="0.012" radius="0.03" p="1" q="3"
             material="src:#rope-cyl" repeat="6 1">
         </a-torus-knot>
 
@@ -119,6 +128,9 @@
             position="1.25 -0.05 -1.25"
             height="0.1" depth="0.4" width="0.4"
             src="#wood">
+            <a-cylinder position="0 -7 0" height="14" radius="0.08"
+                material="src:#bark" repeat="1 50">
+            </a-cylinder>
         </a-box>
 
 
@@ -195,13 +207,13 @@
 
         <a-torus
             position="2.5 -0.05 0.5" rotation="90 0 0"
-            radius-tubular="0.015" radius="0.06"
+            radius-tubular="0.012" radius="0.06"
             material="src:#rope-cyl" repeat="5 1">
         </a-torus>
 
         <a-torus-knot
             position="2.43 -0.05 0.49" rotation="80 180 0"
-            radius-tubular="0.015" radius="0.03" p="1" q="3"
+            radius-tubular="0.012" radius="0.03" p="1" q="3"
             material="src:#rope-cyl" repeat="6 1">
         </a-torus-knot>
 
