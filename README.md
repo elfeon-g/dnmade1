@@ -3,7 +3,7 @@
 ## marelle
 * [environnement avec départ au centre](./marelle/map_centre.html)
     * [avec pieds](./marelle/mapcentre_pieds.html)
-    * [avec pieds sur les mains](./marelle/mapcentre_piedsmains.html)
+    * [avec pieds et mains](./marelle/mapcentre_piedsmains.html)
 
 #### Remerciements
 
@@ -16,3 +16,8 @@
 [*tileable texture mossy tree* by ftourini](https://www.deviantart.com/ftourini/art/tileable-texture-mossy-tree-216962711)  
 [*tileable wood texture* by ftourini-stock](https://www.deviantart.com/ftourini-stock/art/tileable-wood-texture-90119307)  
 [*free asset tiled rope texture* by kitsuwaka](https://fr.3dexport.com/free-3dmodel-free-asset-tiled-rope-texture-126553.htm)  
+
+
+## lumière sur volume architectural
+* [éclairage coloré](./volumarchi/test_lum.html)
+    * [lumière de base](./volumarchi/exemple_obj.html)
